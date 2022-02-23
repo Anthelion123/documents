@@ -23,7 +23,7 @@ export default function Documents() {
     pomoCount: 3,
   });
 
-  const focusDuration = 1;
+  const focusDuration = 5;
   const breakDuration = 5;
 
   function toggleDrawer() {
@@ -90,7 +90,7 @@ export default function Documents() {
       })
     };
   },
-    pomoState.timerRun ? 1000 : null
+    pomoState.timerRun ? 100 : null
   );
 
   return (
